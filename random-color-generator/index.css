@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+:root {
+  --ff: "Red Hat Display", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+body {
+  font-family: var(--ff);
+}
+
+nav {
+  border-bottom: 0.25px solid #ccc;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: inherit;
+  padding: 2rem;
+}
+
+.nav-links a:hover {
+  color: purple;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.info {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
+
+.palette-box {
+  border: 0.05px solid #ccc;
+  border-radius: 1.2rem;
+  padding: 0.75rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.palette {
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-box {
+  background-color: #cccccc;
+  border-radius: 1.2rem;
+  width: 10rem;
+  height: 12rem;
+}
+
+.color {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: purple;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
