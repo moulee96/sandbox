@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="code.js"></script>
+    <title>Random color</title>
+  </head>
+  <body>
+    <nav>
+      <div class="main-nav container">
+        <div class="logo"><img src="/logo.png" alt="" height="64px" /></div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class=".links"><div>Name</div></a>
+          </li>
+          <li>
+            <a href="code.html" class=".links"><div>Code</div></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="flex">
+      <div class="info">
+        Random color generator
+      </div>
+      <div class="palette-box">
+        <div class="palette flex">
+          <div class="color-box"></div>
+          <div class="color">#cccccc</div>
+        </div>
+      </div>
+    </main>
+    <button class="btn flex" id="btn">Generate</button>
+  </body>
+</html>
