@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.filled-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.outline-icons svg {
+  display: block;
+  stroke: gray;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.outline-icons .fb svg:hover {
+  stroke: blue;
+  cursor: pointer;
+}
+
+.outline-icons .li svg:hover {
+  stroke: #0b5fbb;
+  cursor: pointer;
+}
+
+.outline-icons .tw svg:hover {
+  stroke: #1d9bf0;
+  cursor: pointer;
+}
+
+.filled-icons svg {
+  display: block;
+  fill: grey;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.filled-icons .fb svg:hover {
+  fill: blue;
+  cursor: pointer;
+}
+
+.filled-icons .li svg:hover {
+  fill: #0b5fbb;
+  cursor: pointer;
+}
+
+.filled-icons .tw svg:hover {
+  fill: #1d9bf0;
+  cursor: pointer;
+}
